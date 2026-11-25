@@ -1,0 +1,25 @@
+site_name: 我的个人网站
+
+site_description: 我的知识库和学习笔记
+
+theme:
+  name: material
+  language: zh
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+
+nav:
+  - 首页: index.md
+  - 关于我: about.md
+  - 学习笔记: notes.md
