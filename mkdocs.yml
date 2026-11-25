@@ -1,6 +1,7 @@
+
 site_name: 我的个人网站
 
-site_description: 我的个人知识库和学习笔记
+site_description: 个人知识库、学习笔记与技术教程
 
 theme:
   name: material
@@ -8,8 +9,9 @@ theme:
 
   features:
     - navigation.sections
-    - navigation.expand
     - navigation.top
+    - navigation.indexes
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -22,13 +24,18 @@ theme:
 nav:
   - 首页: index.md
 
-  - 关于我: about.md
+  - 个人介绍: about.md
 
   - 学习笔记:
-      - Python 学习: notes.md
+      - Python: learning/python.md
+      - 人工智能: learning/ai.md
+      - Markdown: learning/markdown.md
 
   - 技术教程:
-      - MkDocs 建站: tutorials.md
+      - MkDocs: tutorials/mkdocs.md
+      - GitHub: tutorials/github.md
+      - 网站开发: tutorials/web-development.md
 
   - 资源分享:
-      - 常用网站: resources.md
+      - 常用网站: resources/websites.md
+      - 工具推荐: resources/tools.md
