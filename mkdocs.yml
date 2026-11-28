@@ -1,7 +1,9 @@
 
-site_name: 我的个人网站
+site_name: 热爱生活哈哈
 
 site_description: 个人知识库、学习笔记与技术教程
+
+site_url: https://keepseekalive.github.io/
 
 theme:
   name: material
